@@ -1,0 +1,29 @@
+{
+  "name": "forkify",
+  "version": "1.0.0",
+  "description": "Recipe application",
+  "main": "src/js/controller.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DmitryInke/ForkifyApp.git"
+  },
+  "author": "Dmitry Inke",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DmitryInke/ForkifyApp/issues"
+  },
+  "homepage": "https://github.com/DmitryInke/ForkifyApp#readme",
+  "devDependencies": {
+    "@parcel/transformer-image": "^2.0.0-rc.0",
+    "@parcel/transformer-sass": "^2.0.0-rc.0",
+    "parcel": "^2.0.0-rc.0"
+  },
+  "dependencies": {
+    "core-js": "^3.18.1",
+    "regenerator-runtime": "^0.13.9"
+  }
+}
